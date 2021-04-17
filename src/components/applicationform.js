@@ -33,7 +33,7 @@ class Appform extends React.Component{
         const {universityregisterednumber,name,gender,email,emails,mobilenumber,dob,course,yearofcompletion,ugpercentage,
         ramanareddy,Diplomabranch,Diplomapercentage,pucpercentage,tenthpercentage,collegename,city,nativeplace,uname}=this.state;
 axios({
-    url:'http://localhost:2022/jobseekers',
+    url:'https://bujalasarathkumarreddy.netlify.app/jobseekers',
     method:'POST',
     headers:{'content-Type':'application/json'},
     data:{
