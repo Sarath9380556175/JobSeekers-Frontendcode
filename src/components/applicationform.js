@@ -222,7 +222,7 @@ uname=(event)=>{
     {
         return(
            <div>
-           <form className="text-center skr" style={{backgroundImage:'url(./Images/six.jpg)'}} onSubmit={this.handlesubmit}>
+           <form className="text-center skr" style={{backgroundImage:'url(./Images/seven.jpg)'}} onSubmit={this.handlesubmit}>
                 <div>
            <div className="mt-3 tkr" style={{textDecoration:'underline'}}>Application Form</div>
           
