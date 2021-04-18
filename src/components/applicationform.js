@@ -228,16 +228,16 @@ uname=(event)=>{
           
            <br/>
            <div style={{color:'yellow',fontWeight:'bold'}}>University Number:</div>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="universityregisterednumber" style={{width:'20em'}} className="rounded ukp" onChange={this.usnnumber} required/><br/><br/>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="universityregisterednumber" style={{width:'10em'}} className="rounded ukp" onChange={this.usnnumber} required/><br/><br/>
      
-           <i className="fas fa-user"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="text" name="name" style={{width:'20em'}} required className="rounded ukp" onChange={this.name}/><br/><br/>
+           <i className="fas fa-user"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="text" name="name" style={{width:'15em'}} required className="rounded ukp" onChange={this.name}/><br/><br/>
             <div style={{textDecoration:'underline',color:'yellow'}}>Gender</div>
            <i className="fas fa-male" style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="radio" name="gender" required  onChange={()=>this.gender("male")}/><span className="rmr">male</span>&nbsp;&nbsp;
            <i className="fas fa-female" style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="radio" name="gender" required onChange={()=>this.gender("female")}/><span className="rmr">female</span>
            <br/><br/>
-          <i className="fas fa-envelope"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="email" name="email" required style={{width:'20em'}} className="rounded ukp" onChange={this.email}/>
+          <i className="fas fa-envelope"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="email" name="email" required style={{width:'15em'}} className="rounded ukp" onChange={this.email}/>
            <br/><br/>
-           <i className="fas fa-envelope"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp; <input type="email" name="emails" required style={{width:'20em'}} className="rounded ukp" onChange={this.emails}/>
+           <i className="fas fa-envelope"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp; <input type="email" name="emails" required style={{width:'15em'}} className="rounded ukp" onChange={this.emails}/>
            <br/>
            <br/>
            <span style={{fontSize:'30px',color:'orangered'}}>(&#128241;)</span>&nbsp;&nbsp;&nbsp;<input type="tel" maxLength="10" required style={{width:'10em'}} name="mobilenumber" className="rounded ukp"  onChange={this.mobilenumber}/>
@@ -269,7 +269,7 @@ uname=(event)=>{
         
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>UG % of Marks&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="ugpercentage" required style={{width:'20em'}} className="rounded ukp" onChange={this.ugmarks}/><br/>
+           <input type="text" name="ugpercentage" required style={{width:'15em'}} className="rounded ukp" onChange={this.ugmarks}/><br/>
            <div className="akr">Please enter a value between 50 and 100.</div>
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>Diploma&nbsp;<span className="gopal">*</span></div>
@@ -280,29 +280,29 @@ uname=(event)=>{
            </select>
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>Diploma Branch</div>
-           <input type="text" name="Diplomabranch" required style={{width:'20em'}} className="rounded ukp" onChange={this.branch}/><br/>
+           <input type="text" name="Diplomabranch" required style={{width:'15em'}} className="rounded ukp" onChange={this.branch}/><br/>
            <div className="akr" style={{textDecoration:'underline'}}>Diploma % of Marks</div>
-           <input type="text" name="Diplomapercentage" required style={{width:'20em'}} className="rounded ukp" onChange={this.Diplomapercentage}/><br/>
+           <input type="text" name="Diplomapercentage" required style={{width:'15em'}} className="rounded ukp" onChange={this.Diplomapercentage}/><br/>
            <div className="tkr">Please enter a value between 50 and 100.</div>
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>12th % of Marks&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="pucpercentage" required style={{width:'20em'}} className="rounded ukp" onChange={this.pucpercentage}/><br/>
+           <input type="text" name="pucpercentage" required style={{width:'15em'}} className="rounded ukp" onChange={this.pucpercentage}/><br/>
            <div className="tkr">Please enter a value between 50 and 100.</div>
            <div className="akr" style={{textDecoration:'underline'}}>10th % of Marks&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="tenthpercentage" required style={{width:'20em'}} className="rounded ukp" onChange={this.tenthpercentage}/><br/>
+           <input type="text" name="tenthpercentage" required style={{width:'15em'}} className="rounded ukp" onChange={this.tenthpercentage}/><br/>
            <div className="tkr">Please enter a value between 50 and 100.</div>
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>Name of the College Studied&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="collegename" required style={{width:'20em'}} className="rounded ukp" onChange={this.collegename}/><br/>
+           <input type="text" name="collegename" required style={{width:'15em'}} className="rounded ukp" onChange={this.collegename}/><br/>
            <br/>
            <div className="akr" style={{textDecoration:'underline'}}>City&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="city" required style={{width:'20em'}} className="rounded ukp" onChange={this.city}/>
+           <input type="text" name="city" required style={{width:'15em'}} className="rounded ukp" onChange={this.city}/>
            <br/><br/>
            <div className="akr" style={{textDecoration:'underline'}}>State&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="nativeplace" required style={{width:'20em'}} className="rounded ukp" onChange={this.nativeplace}/>
+           <input type="text" name="nativeplace" required style={{width:'15em'}} className="rounded ukp" onChange={this.nativeplace}/>
            <br/><br/>
            <div className="akr" style={{textDecoration:'underline'}}>University Name&nbsp;<span className="gopal">*</span></div>
-           <input type="text" name="uname" required style={{width:'20em'}} className="rounded ukp" onChange={this.uname}/>
+           <input type="text" name="uname" required style={{width:'15em'}} className="rounded ukp" onChange={this.uname}/>
            <br/><br/>
            <button className="btn btn-success btn-sm">SUBMIT</button>
            </div>
