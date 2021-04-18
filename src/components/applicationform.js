@@ -228,7 +228,7 @@ uname=(event)=>{
           
            <br/>
            <div style={{color:'yellow',fontWeight:'bold'}}>University Number:</div>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="universityregisterednumber" style={{width:'10em'}} className="rounded ukp" onChange={this.usnnumber} required/><br/><br/>
+           <input type="text" name="universityregisterednumber" style={{width:'10em'}} className="rounded ukp" onChange={this.usnnumber} required/><br/><br/>
      
            <i className="fas fa-user"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp;<input type="text" name="name" style={{width:'15em'}} required className="rounded ukp" onChange={this.name}/><br/><br/>
             <div style={{textDecoration:'underline',color:'yellow'}}>Gender</div>
@@ -240,9 +240,9 @@ uname=(event)=>{
            <i className="fas fa-envelope"  style={{fontSize:'30px',color:'orangered'}}></i>&nbsp; <input type="email" name="emails" required style={{width:'15em'}} className="rounded ukp" onChange={this.emails}/>
            <br/>
            <br/>
-           <span style={{fontSize:'30px',color:'orangered'}}>(&#128241;)</span>&nbsp;&nbsp;&nbsp;<input type="tel" maxLength="10" required style={{width:'10em'}} name="mobilenumber" className="rounded ukp"  onChange={this.mobilenumber}/>
+           <input type="tel" maxLength="10" required style={{width:'10em'}} name="mobilenumber" className="rounded ukp"  onChange={this.mobilenumber}/>
            <br/>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="rmr">Ex:90000000000</span>
+           <span className="rmr">Ex:90000000000</span>
            <br/>
            <br/>
            <div style={{color:'yellow'}}>D-O-B:</div>
