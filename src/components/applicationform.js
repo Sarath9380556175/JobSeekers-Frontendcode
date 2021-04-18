@@ -227,19 +227,22 @@ uname=(event)=>{
            <div className="mt-3 tkr" style={{textDecoration:'underline'}}>Application Form</div>
           
            <br/>
-           <div style={{color:'yellow',fontWeight:'bold'}}>University Number:</div>
+           <div style={{color:'yellow',fontWeight:'bold',fontFamily:'serif'}}>University Number:</div>
            <input type="text" name="universityregisterednumber" style={{width:'10em'}} className="rounded ukp" onChange={this.usnnumber} required/><br/><br/>
-     
+             <div style={{color:'black',fontWeight:'bold',fontFamily:'serif'}} className="text-center">Name</div>
            <i className="fas fa-user"  style={{fontSize:'20px'}}></i>&nbsp;<input type="text" name="name" style={{width:'15em'}} required className="rounded ukp" onChange={this.name}/><br/><br/>
             <div style={{textDecoration:'underline',color:'yellow'}}>Gender</div>
            <i className="fas fa-male" style={{fontSize:'20px'}}></i>&nbsp;<input type="radio" name="gender" required  onChange={()=>this.gender("male")}/><span className="rmr">male</span>&nbsp;&nbsp;
            <i className="fas fa-female" style={{fontSize:'20px'}}></i>&nbsp;<input type="radio" name="gender" required onChange={()=>this.gender("female")}/><span className="rmr">female</span>
            <br/><br/>
+             <div style={{color:'black',fontWeight:'bold',fontFamily:'serif'}} className="text-center">Email</div>
           <i className="fas fa-envelope"  style={{fontSize:'20px'}}></i>&nbsp;<input type="email" name="email" required style={{width:'15em'}} className="rounded ukp" onChange={this.email}/>
            <br/><br/>
+             <div style={{color:'black',fontWeight:'bold',fontFamily:'serif'}} className="text-center">Alternate Email</div>
            <i className="fas fa-envelope"  style={{fontSize:'20px'}}></i>&nbsp; <input type="email" name="emails" required style={{width:'15em'}} className="rounded ukp" onChange={this.emails}/>
            <br/>
            <br/>
+             <div style={{color:'black',fontWeight:'bold',fontFamily:'serif'}} className="text-center">Mobile Number</div>
            <input type="tel" maxLength="10" required style={{width:'10em'}} name="mobilenumber" className="rounded ukp"  onChange={this.mobilenumber}/>
            <br/>
            <span className="rmr">Ex:90000000000</span>
